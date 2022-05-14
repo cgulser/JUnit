@@ -18,23 +18,17 @@ public void setup(){
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 }
+
 @After
 public void tearDown() {
-
     driver.close();
 }
-@Test
-public void test1() {
-    driver.get("https://www.amazon.com");
-}
-@Test
-public void test2() {
 
-    driver.get("https://www.facebook.com");
-}
 @Test
-public void test3() {
-    driver.get("https://www.techproeducation.com");
-}
+public void test1() { driver.get("https://www.amazon.com");}
+@Test
+public void test2() { driver.get("https://www.facebook.com");}
+@Test
+public void test3() { driver.get("https://www.techproeducation.com");}
 
 }
