@@ -45,6 +45,9 @@ public class C03_RadioButton {
         }
         Thread.sleep(3000);
 
-   //---> Bu Class'taki hatalar C06_Deneme class'inda giderildi <---//
+   //---> Bu Class'taki hatalar C05_Deneme class'inda giderildi <---//
+        // linklerden xpath ile  alinan id'ler sayfaya her giriste degistigi icin
+        // id disinda baska bir @ atribute alindi.
+
     }
 }
