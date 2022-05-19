@@ -1,4 +1,4 @@
-package day08_alerts_iframe;
+package day08_alerts;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.AfterClass;
