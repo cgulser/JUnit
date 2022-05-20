@@ -23,7 +23,7 @@ public class C05_FileUpload extends TestBase {
         // 2.adim yuklenecek doyanin dosya yolunu olusturalim
         //   biz masaustundeki text.txt dosyasini yukleyelim
         String farkliKisim=System.getProperty("user.home");
-        String ortakKisim= "\\Desktop\\Textdokument.txt";
+        String ortakKisim= "\\OneDrive\\Masaüstü\\Textdokument.txt";
         String yuklenecekDosya= farkliKisim+ortakKisim;
         // 3. adim sendKeys ile dosya yolunu, secme butonuna yollayalim
         dosyaSecButonu.sendKeys(yuklenecekDosya);
