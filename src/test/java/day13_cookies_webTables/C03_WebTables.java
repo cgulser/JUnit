@@ -22,9 +22,9 @@ public class C03_WebTables extends TestBase {
     public void girisYap() {
         driver.get("https://www.hotelmycamp.com");
         driver.findElement(By.linkText("Log in")).click();
-        Actions actions = new Actions(driver);
+        Actions action = new Actions(driver);
         WebElement username = driver.findElement(By.id("UserName"));
-        actions.click(username).
+        action.click(username).
                 sendKeys("manager").
                 sendKeys(Keys.TAB).
                 sendKeys("Manager1!").
