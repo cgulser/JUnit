@@ -1,4 +1,4 @@
-package day13_cookies_webTables;
+package day13_Cookies_WebTables;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.Cookie;
